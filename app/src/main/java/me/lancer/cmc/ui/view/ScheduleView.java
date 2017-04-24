@@ -337,7 +337,7 @@ public class ScheduleView extends RelativeLayout {
 
             tvSchedule = new TextView(getContext());
             flp = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-            tvSchedule.setText(c.getCourseName() + "\n" + c.getCourseTeacher() + "\n" + c.getCourseClassroom());
+            tvSchedule.setText(c.getCourseName() + "\n" + c.getCourseClassroom().replace("-", ""));
             tvSchedule.setTextColor(Color.WHITE);
             tvSchedule.setGravity(Gravity.CENTER_HORIZONTAL | Gravity.TOP);
             tvSchedule.setPadding(weight, 0, weight, 0);
