@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <group
+        android:id="@+id/navigation_group_1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_item_1"
+            android:checked="true"
+            android:icon="@mipmap/ic_dashboard_black_24dp"
+            android:title="@string/edu_title" />
+
+        <!--<item-->
+            <!--android:id="@+id/navigation_item_2"-->
+            <!--android:icon="@mipmap/ic_local_florist_black_24dp"-->
+            <!--android:title="@string/roll_title" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/navigation_item_3"-->
+            <!--android:icon="@mipmap/ic_class_black_24dp"-->
+            <!--android:title="@string/lib_title" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/navigation_item_4"-->
+            <!--android:icon="@mipmap/ic_extension_black_24dp"-->
+            <!--android:title="四六级" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/navigation_item_5"-->
+            <!--android:icon="@mipmap/ic_send_black_24dp"-->
+            <!--android:title="查快递" />-->
+
+    </group>
+
+    <group
+        android:id="@+id/navigation_group_2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navigation_setting"
+            android:icon="@mipmap/ic_settings_white_24dp"
+            android:title="设置" />
+
+        <!--<item-->
+        <!--android:id="@+id/navigation_item_night"-->
+        <!--android:icon="@mipmap/ic_brightness_2_black_24dp"-->
+        <!--android:title="夜间模式" />-->
+
+    </group>
+
+</menu>
