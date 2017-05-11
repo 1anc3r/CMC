@@ -25,6 +25,35 @@ public class ContentGetterSetter {
         this.number = number;
     }
 
+    public ContentGetterSetter() {
+    }
+
+    public String getContentFromHtm1(String log,String url) {
+        StringBuilder content = new StringBuilder();
+        OkHttpClient client = new OkHttpClient();
+        client.setFollowRedirects(false);
+        Request request = new Request.Builder().url(url).build();
+        try {
+            Response response = client.newCall(request).execute();
+            if (response.code() == 200) {
+                BufferedReader reader = new BufferedReader(response.body().charStream());
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    content.append(line);
+                }
+                reader.close();
+                Log.e(log, "获取成功!");
+                return content.toString();
+            } else {
+                Log.e(log, "获取失败!状态码:" + response.code());
+                return "获取失败!状态码:" + response.code();
+            }
+        } catch (IOException e) {
+            Log.e(log, "获取失败!捕获异常:" + e.toString());
+            return "获取失败!捕获异常:" + e.toString();
+        }
+    }
+
     public String getContentFromHtml(String url, String cookie) {
         StringBuilder content = new StringBuilder();
         OkHttpClient client = new OkHttpClient();
