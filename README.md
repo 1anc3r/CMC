@@ -10,6 +10,9 @@
 * 实验室主页: [![](https://img.shields.io/badge/wiki-xiyoumobile-brightgreen.svg)](http://www.xiyoumobile.com/)
 * 下载链接: [![](https://img.shields.io/badge/download-v1.2-blue.svg)](https://github.com/1anc3r/CMC/blob/master/screenshot/cmc_alpha_0.0.1.apk)
 
+## 应用截图:
+<img src="https://github.com/1anc3r/CMC/blob/master/screenshot/qemu-system-i386_2017-04-24_16-57-06.png" width = "288" height = "512" alt="" /><img src="https://github.com/1anc3r/CMC/blob/master/screenshot/qemu-system-i386_2017-04-24_16-57-02.png" width = "288" height = "512" alt=""/><img src="https://github.com/1anc3r/CMC/blob/master/screenshot/qemu-system-i386_2017-04-24_17-01-34.png" width = "288" height = "512" alt=""/>
+
 ## 关于
 ### 组织
 <img src="http://o7gy5l0ax.bkt.clouddn.com/ic_xiyoumobile.png" width = "100" height = "100" alt=""/>
