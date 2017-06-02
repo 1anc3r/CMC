@@ -14,4 +14,9 @@
         android:id="@+id/menu_about"
         android:title="Github"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_blog"
+        android:title="Blog"
+        app:showAsAction="never" />
 </menu>
