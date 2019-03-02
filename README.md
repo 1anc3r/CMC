@@ -8,7 +8,7 @@
 * Github: [![](https://img.shields.io/badge/github-1anc3r-yellowgreen.svg)](https://github.com/1anc3r)
 * 我的博客: [![](https://img.shields.io/badge/blog-1anc3r-green.svg)](http://1anc3r.github.io/)
 * 实验室主页: [![](https://img.shields.io/badge/wiki-xiyoumobile-brightgreen.svg)](http://www.xiyoumobile.com/)
-* 下载链接: [![](https://img.shields.io/badge/download-v1.2-blue.svg)](https://github.com/1anc3r/CMC/blob/master/screenshot/cmc_alpha_0.0.1.apk?raw=true)
+* 下载链接: [![](https://img.shields.io/badge/download-v1.2-blue.svg)](https://github.com/1anc3r/CMC/blob/master/app/app-release.apk?raw=true)
 
 ## 应用截图:
 <img src="https://github.com/1anc3r/CMC/blob/master/Screenshots/课表.png" width = "288" height = "512" alt="" /><img src="https://github.com/1anc3r/CMC/blob/master/Screenshots/成绩单.png" width = "288" height = "512" alt=""/><img src="https://github.com/1anc3r/CMC/blob/master/Screenshots/桌面课表.png" width = "288" height = "512" alt=""/>
